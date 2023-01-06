@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Times list</title>
+
+<style>
+h1 {text-align: center; text-emphasis-color: blue;}
+p {text-align: center;}
+div {text-align: center;}
+button {text-align: center;}
+body {background-color:#D4DEF1;}
+</style>
+
+<script>
+
+function timesTable () {
+    let multiplier = 5;
+    let maximum = 12;
+    let count = 1;
+    let list = "";
+    let output;
+  
+    
+    while (count <= maximum) {
+        output = multiplier + " x " + count + " = " + multiplier * count;
+        list = list + output + "<br>";
+        count += 1;
+    }
+    document.getElementById('outputDiv').innerHTML = list ;
+}
+
+function timesTable2 () {
+    let multiplier2 = parseFloat(document.getElementById('1stNumberBox').value);
+    let maximum2 = parseFloat(document.getElementById('2ndNumberBox').value);
+    let count2 = 1;
+    let list2 = "";
+    let output2;
+  
+    
+    while (count2 <= maximum2) {
+        output2 = multiplier2 + " x " + count2 + " = " + multiplier2 * count2;
+        list2 = list2 + output2 + "<br>";
+        count2 += 1;
+    }
+
+ 
+    document.getElementById('outputDiv2').innerHTML = list2 ;
+}
+
+
+</script>
+</head>
+
+<body>
+<h1>Times Table Lists</h1>
+<p>Do you want to see a times table of 5's  
+<button type="button" onclick="timesTable()">Show List</button></p><br>  
+<div id="outputDiv"></div><br>
+
+
+<p>Do you want to see a times table of varible Numbers
+<p>Input a Number you want Multiplied:  <input type="text" id="1stNumberBox" size="7"> <br>
+   
+   How many times do you want the number multiplied by?:  <input type="text" id="2ndNumberBox" size="7"><br>
+<button type="button" onclick="timesTable2()">Show List</button></p><br>  
+<div id="outputDiv2"></div>
+  
+</body>
+</html>
