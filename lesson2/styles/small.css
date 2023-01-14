@@ -1,0 +1,56 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Barlow", sans-serif;
+}
+
+header, footer {
+    background-color: rgb(121, 199, 161);
+    color: #005335;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 2rem;
+}
+
+main {
+    padding: 0 0.5rem;
+    margin: 15px 0;
+    display: grid;
+    gap: 30px;
+    
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 15px 15px 0 0;
+    background-color: #d5f0e6;
+}
+
+section div {
+    padding: 0 0.6rem;
+}
+
+section h3 {
+    margin: 0;
+    padding: 0.3rem 0.6rem;
+    border-bottom: 1px solid black;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(173, 212, 194);
+}
+
+p {
+    padding: 0.5rem 0;
+}
+
+img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+p, h1{
+    margin: 0;
+}
