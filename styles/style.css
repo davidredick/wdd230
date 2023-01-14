@@ -1,10 +1,30 @@
-h1 {text-align: center;}
-h2 {text-align: center;}
-p {text-align: center; }
-div {text-align: center;}
-button {text-align: center;}
-body {background-color:#D4DEF1;}
-img {align-items: center;}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faustina:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center; 
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+}
+
+body {
+    background-color:azure
+}
+
 ul {align-items: center;}
 li {align-items: center;}
 font-family: 'Cormorant Garamond', serif;
@@ -14,3 +34,20 @@ h2 { font-family: 'Cormorant Garamond'; }
 h1 { font-family: 'Faustina'; }
 h3 { font-family: 'PT Serif'; }
 p { font-family: 'Cormorant Garamond', 'Faustina', 'PT Serif'; }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color: #76a3f6;
+    padding: 1.5em 0;
+    border-radius: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 20px;
+    padding-left: 10px;
+    grid-column: 1;
+	justify-self: center;
+  } 
