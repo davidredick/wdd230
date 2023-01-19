@@ -1,5 +1,5 @@
 html {
-    background-color: azure;
+    background-color: #E2E2E2;
 }
 
 body {
@@ -9,31 +9,24 @@ body {
 
 header {
     text-align: center;
-    background-color: #76a3f6;
-    border-radius: 0 0 10px 10px;
-    color: azure;
-    padding: 1em;
+    background-color: #575757;
+    /*border-radius: 0 0 10px 10px;*/
+    color: #E2E2E2;
+    /*padding: 1em;*/
 }
 h1 {
     margin-bottom: 0.25em;
 }
 header > span {
     font-size: medium;
-    color:  #76a3f6;
+    color:  #575757;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    width: 95%;
-    margin: 20px auto;
+
 }
 section {
-    border-radius: 2px;
-    background-color:azure;
-    border: solid 1px black;
-    overflow: hidden;
+    background-color:#E2E2E2;
     font-family: 'Cormorant Garamond';
 }
 
@@ -42,42 +35,72 @@ h3 {
     font-family: 'PT Serif';
     padding: 10px;
     /* text-align: center; */
-    background: #76a3f6;
-    color: azure;
-}
-
-section > div {
-    padding: 0 10px;
-}
-section > div > span {
-    display: block;
-}
-section > div > * {
-    font-size: 1.05em;
-}
-section img {
-    width: calc(100% - 2px);
-    display: block;
-    margin: 0 auto;
-    border: solid 1px black;
-    max-width: 320px;
+    background: #575757;
+    color: #E2E2E2;
 }
 
 footer {
     text-align: center;
-    background-color: #76a3f6;
+    background-color: #575757;
     border-radius: 10px 10px 0 0;
     padding: 1em;
-    color: azure;
+    color: #E2E2E2;
 }
 
 .footerhref {
-    color: azure;
+    color: #E2E2E2;
 }
 
 #lst-updt {
     padding-top: 5px;
     display: block;
     font-size: small;
-    color: azure;
+    color: #E2E2E2;
+}
+
+header,
+footer {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav {
+    background-color: #575757;
+    text-align: center;
+    box-shadow: 0 5px 15px #575757;
+    
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    color: #E2E2E2;
+    text-align: center;
+    padding: 0.70rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+nav a:hover {
+    background-color: #E2E2E2;
+
+    color: #575757;
+}
+
+nav ul li {
+    flex: 1 1 100%;
 }
