@@ -10,9 +10,7 @@ body {
 header {
     text-align: center;
     background-color: #575757;
-    /*border-radius: 0 0 10px 10px;*/
-    color: #E2E2E2;
-    /*padding: 1em;*/
+     color: #E2E2E2;
 }
 h1 {
     margin-bottom: 0.25em;
@@ -22,9 +20,7 @@ header > span {
     color:  #575757;
 }
 
-main {
 
-}
 section {
     background-color:#E2E2E2;
     font-family: 'Cormorant Garamond';
@@ -34,7 +30,6 @@ h3 {
     margin: 0;
     font-family: 'PT Serif';
     padding: 10px;
-    /* text-align: center; */
     background: #575757;
     color: #E2E2E2;
 }
@@ -71,10 +66,7 @@ footer {
 nav {
     background-color: #575757;
     text-align: center;
-    box-shadow: 0 5px 15px #575757;
-    
-    
-    
+    box-shadow: 0 5px 15px #575757;    
 }
 
 nav ul {
@@ -97,10 +89,99 @@ nav ul li a {
 
 nav a:hover {
     background-color: #E2E2E2;
-
     color: #575757;
 }
 
 nav ul li {
     flex: 1 1 100%;
+}
+
+.example1 a:hover {
+    background-color: #E2E2E2;
+    color: #575757;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table.center {
+    width:80%; 
+    margin-left:10%; 
+    margin-right:10%;
+  }
+
+section.heading {
+    text-align: center;
+}
+
+.sample1 {
+    font-family: 'Faustina', sans-serif;
+    background-color: #575757;
+    color: #E2E2E2;
+    font-size: 30px;
+}
+
+.sample2 {
+    font-family: 'Faustina', sans-serif;
+    background-color: #575757;
+    color: #E2E2E2;
+    font-size: 20px;
+}
+
+.sample3 {
+    font-family: 'Faustina', sans-serif;
+    background-color: #E2E2E2;
+    color: #575757;
+    font-size: 30px;
+}
+
+.sample4 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    background-color: #E2E2E2;
+    color: #575757;
+    font-size: 25px;
+}
+
+.sample5 {
+    font-family: 'PT Serifc', sans-serif;
+    background-color: #E2E2E2;
+    color: #575757;
+    font-size: 20px;
+}
+
+.sample6 {
+    font-family: 'Faustina', sans-serif;
+    background-color: #E2E2E2;
+    color: #575757;
+    font-size: 18px;
+}
+
+.sample7 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    background-color: #E2E2E2;
+    color: #575757;
+    font-size: 18px;
+}
+
+.sample9 {
+    font-family: 'Faustina', sans-serif;
+    background-color: #575757;
+    color: #E2E2E2;
+    
+}
+
+.sample8 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    background-color: #E2E2E2;
+    color: #575757;
+    
 }
