@@ -1,6 +1,5 @@
-function myFunctions(){
+function myFunctions() {
     lastUpdated(); 
     year(); 
-    toggleMenu();
     dateUK();
 } 

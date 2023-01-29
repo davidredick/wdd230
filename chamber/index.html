@@ -4,117 +4,97 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
-<meta name="description" content="Assignment 1 for WDD230">
+<meta name="description" content="Aberdeen Chamber">
+<meta name="author" content="David Redick">
 
 <title>Aberdeen Chamber</title>
 <link href="images/aberdeen_small.png" rel="icon" type="image/icon">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-<meta name="description" content="Design principles website">
-<meta name="author" content="David Redick">
 
 <link rel="stylesheet" href="styles/normalize.css">
-
 <link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/medium.css">
 <link rel="stylesheet" href="styles/large.css">
-<link rel="stylesheet" href="styles/medium.css" media="(max-width: 894px) and (min-width: 650px)">
 <link rel="stylesheet" href="styles/style.css">
-
-
-<script src="scripts/currentyear.js"></script>
-<script src="scripts/lastmodified.js"></script>
-<script src="scripts/javascript.js"></script>
-<script src="scripts/date.js"></script>
-<script src="scripts/burger.js"></script>
-<script src="scripts/allscripts.js"></script>
-
 
 
 </head>
 
-<body onload="myFunctions()">
+<!-- <body onload="myFunctions()"> -->
+  <body>
 
   <header>
-    <div class="header"><br><br>
-      <img src="images/aberdeen_chamber_normal_white.png" height=75 alt="aberdeen chamber logo">
-      <h1>Aberdeen Chamber</h1>
-      <!-- <div id="currentDate">kisses</div> -->
-      <div id="current-date">date</div>
-  </div>
-  <nav>
-      <div id="burger-icon">
-          <img src="images/burger.svg" id="burger-open" width=30 height=30 alt="menu button">
+      <br><br>
+      <img src="images/aberdeen_chamber_normal_white.png" height="75px" alt="aberdeen chamber logo">
+    <!-- <div id="currentDate">kisses</div> -->
+    <!--   <div id="current-date">date</div> -->
+    
+    <!-- <nav> -->
+          <!-- <div id="burger-icon">
+          <img src="images/burger.svg" id="burger-open" width="30px" height="30px" alt="menu button">
           <img src="images/close.svg" id="burger-close" class="hidden" width=30 height=30 alt="menu button">
-      </div>
-      <div class="hidden burger-flex" id="burger-nav">
-          <ul>
-              <li>
-                  <a href="index.html">HOME</a>
-              </li>
-              <li>
-                  <a href="#">Page1</a>
-              </li>
-              <li>
-                  <a href="#">Page2</a>
-              </li>
-              <li>
-                  <a href="#">Page3</a>
-              </li>
-              <li>
-                <a href="#">Page4</a>
-              </li>
-              <li class="external_links">
-                  <a href="https://www.https://www.facebook.com/GreaterGHInc/"><img src="images/facebook.svg" width=40 height=40 alt="Facebook icon"></a>
-              </li>
-              <li class="external_links">
-                  <a href="https://twitter.com/GreaterGHInc"><img src="images/twitter.svg" width=40 height=40 alt="Twitter icon"></a>
-              </li>
-          </ul>
-      </div>
-  </nav>
+          </div> -->
+
 </header>
 
-  </header>
-
   <nav>
-        
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="target-audience.html">Target Audience</a></li>
-        <li><a href="design.html">Design</a></li>
+    <button id="hamburgerButton"><span>&#9776;</span><span>X</span></button>
+
+    <ul id="primaryNav">
+      <li>
+       <a href="index.html">Home</a>
+      </li>
+      <li>
+       <a href="#">Page1</a>
+      </li>
+      <li>
+       <a href="#">Page2</a>
+      </li>
+      <li>
+       <a href="#">Page3</a>
+      </li>
+      <li>
+       <a href="#">Page4</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/GreaterGHInc/" target="_blank" ><img src="images/facebook.svg" width="30px" height="30px" alt="facebook Icon" /></a>
+      </li>
+      <li>
+       <a href="https://twitter.com/GreaterGHInc" target="_blank"><img src="images/twitter.svg" width="30px" height="30px" alt="Twitter icon"></a>
+      </li>
     </ul>
 
 </nav>
 
 <main>
 
-<section class="heading">
-<h2>Website Plannig Document: Home</h2>
-</section>
-<hr>
+  <div class="hero">Hero</div>
+  <div class="event">Event</div>
+  <div class="weather">Weather</div>
+  <div class="news">NEWS</div>
+  <div class="spotlightGroup">
+    <div class="hero">Spotlight1</div>
+    <div class="hero">Spotlight2</div>
+    <div class="hero">Spotlight3</div>
+  </div>
+  <div class="signUp">Sign Up</div>
+  
 
-<section>
+<!-- <section>
   <h3>Site Name</h3>
   <p>The name will be "Aberdeen Chamber".</p>
-
 </section>
-
 
 <section>
   <h3>Site Purpose</h3>
   <p>The purpose of this site will be to provide residents of the city of Aberdeen, WA a a resource to discover local business in the place they live.</p>
   <p>Another purpose is to inform prospective buisness owners of the benefits of establishing / moving their business to Aberdeen</p>
   <p>Provide a calendar of events for the community and neighbring cities to provide information for the business that are already established in the City of Aberdeen</p> 
-
 </section>
- 
 
 <section>
-
   <h3>Logo for the Chamber</h3>
   <img src="images/aberdeen_chamber_normal.png" alt="The new logo for the Aberdeen Chamber" height="300px">
-  
 </section>
 
 <section>
@@ -122,7 +102,7 @@
   <h3>Domain Name</h3>
   <p>The domain will be AberdeenChamber.org purchased for $12.00 per Year at domains.google.com</p>
 
-</section>
+</section> -->
 
 </main>
 
@@ -133,6 +113,11 @@
     <div>Last Updated: <span id="lastmodified"></span></div>
   </footer>
 
+  <script src="scripts/burger.js"></script>
+  <script src="scripts/currentyear.js"></script>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/javascript.js"></script>
+  <script src="scripts/lastmodified.js"></script>
 </body>
 
 </html>
