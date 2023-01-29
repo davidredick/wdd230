@@ -1,9 +1,26 @@
+:root {
+    --primary-bg: #f2f2f2;
+    --rimary-fg:/* rgb(73, 103, 44)*/;
+    --secondary-fg:/* rgb(66, 97, 135)*/;
+    --secondary-bg:/* rgb(253, 253, 239)*/;
+    --pop-color:/* rgb(166,99,23)*/;
+    --menu-bg:/* rgba(211,227,250,.9)*/;
+    --white-bump:/* rgba(255,255,255,.2)*/;
+    --drop-shadows:/* rgba(0,0,0, .2)*/;
+    --body-font:/* 'Open Sans', sans-serif*/;
+    --heading-font:/*'Oswald', sans-serif*/; 
+    --maxWidth: 500px; 
+}
+
+
 html {
     background-color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    max-width: 900px;
+    max-width: var(--maxWidth);
     margin: 0 auto;
 }
 
@@ -12,6 +29,13 @@ header {
     background-color: #575757;
      color: #f2f2f2;
 }
+
+header div#current-date {
+    text-align: center;
+    filter: hue-rotate(-90deg);
+    font-size: 1em;
+}
+
 h1 {
     margin-bottom: 0.25em;
 }
@@ -20,12 +44,22 @@ header > span {
     color:  #575757;
 }
 
-
-
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 95%;
+    margin: 20px auto;
+}
 section {
-    background-color:#f2f2f2;
+    border-radius: 2px;
+    background-color:#f2f2f2
+    border: solid 1px black;
+    overflow: hidden;
     font-family: 'Cormorant Garamond';
 }
+
+
 
 h3 {
     margin: 0;
