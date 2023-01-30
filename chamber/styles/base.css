@@ -1,13 +1,6 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-* {
-    max-width: 960px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 html {
     background-color: #f2f2f2;
     margin: 0px;
@@ -74,7 +67,7 @@ nav ul.open {display: block;}
 header {
     text-align: center;
     background-color: #575757;
-     color: #f2f2f2;
+    color: #f2f2f2;
 }
 
 header div#current-date {
@@ -93,7 +86,8 @@ header > span {
 
 main {
     display: flex;
-    overflow: hidden;
+    overflow: hidden
+    width: 95%;
     margin: 20px auto;
     padding: 1em 1em;
     flex-direction: column;
@@ -142,19 +136,19 @@ footer {
 
 }
 .hero {
-    background-image:  linear-gradient(0deg, rgb(253, 253, 239), rgba(253, 253, 239, 0.5)), url(https://loremflickr.com/700/400/money,USA,flag);
+    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/USA,flag);
 }
 .news {
-    background-image:  linear-gradient(0deg, rgb(253, 253, 239), rgba(253, 253, 239, 0.5)), url(https://loremflickr.com/700/400/news,commerce);
+    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/news,);
 }
 .join {
-    background-image:  linear-gradient(0deg, rgb(253, 253, 239), rgba(253, 253, 239, 0.5)), url(https://loremflickr.com/700/400/join,membership);
+    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/join,membership);
 }
 .event {
-    background-image:  linear-gradient(0deg, rgb(253, 253, 239), rgba(253, 253, 239, 0.5)), url(https://loremflickr.com/700/400/event,commerce);
+    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/event,commerce);
 }
 .weather {
-    background-image:  linear-gradient(0deg, rgb(253, 253, 239), rgba(253, 253, 239, 0.5)), url(https://loremflickr.com/700/400/weather,clouds);
+    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/weather,clouds);
 }
 .spotlights {
     aspect-ratio:unset;
