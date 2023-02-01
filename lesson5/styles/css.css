@@ -17,12 +17,20 @@ h1 {
 }
 
 main {
+  width: 700px;
 	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.9);
 	padding: 1rem;
 	background-color: #ddd;
 	display: flex;
 	flex-direction: column;
+}
+
+main ul {
+  margin: 2rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.9) ;
+  align-items: flex-start;
+  width: 500px;
 }
 
 input,
@@ -58,7 +66,7 @@ li {
 	justify-content: space-between;
 }
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 110em) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -67,3 +75,8 @@ li {
 		width: 320px;
 	}
 }
+
+div{
+  width: 600px;
+}
+
