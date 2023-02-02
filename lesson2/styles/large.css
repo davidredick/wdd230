@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faustina:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 html {
     background-color: white;
 }
@@ -35,13 +38,15 @@ section {
     border: solid 1px black;
     overflow: hidden;
     font-family: 'Cormorant Garamond';
+    text-align: center;
+
 }
 
 h3 {
     margin: 0;
     font-family: 'PT Serif';
     padding: 10px;
-    /* text-align: center; */
+    text-align: center;
     background: #1d66ee;
     color: white;
 }
