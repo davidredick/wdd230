@@ -23,6 +23,11 @@ button {
 
 body {
     background-color:#E2E2E2;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    
 }
 
 ul { align-items: center;}
@@ -34,11 +39,10 @@ p { font-family: 'Cormorant Garamond', 'Faustina', 'PT Serif'; }
 
 header {
     display: flex;
-    grid-template-columns: 1fr;
-    align-items: center;
     background-color: #76a3f6;
     padding: 1.5em 0;
     border-radius: 20px;
+    min-width: 60rem;
   }
 
   img {
@@ -48,3 +52,20 @@ header {
     grid-column: 1;
 	object-position: center;
   } 
+
+  header {
+    min-width: 60rem;
+    
+  }
+
+  footer {
+    text-align: center;
+    background-color: #76a3f6;
+    padding: 1.5em 0;
+    border-radius: 20px;
+    min-width: 60rem;
+  }
+
+  section.heading {
+    float:right
+  }
