@@ -55,12 +55,12 @@ button {
 	padding: 0.5rem;
 }
 
-ul {
-	margin: 1rem;
-	list-style: none;
-}
+	ul {
+		margin: 1rem;
+		list-style: none;
+	}
 
-li {
+	li {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
