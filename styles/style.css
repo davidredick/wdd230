@@ -25,15 +25,15 @@ body {
     background-color:#E2E2E2;
 }
 
-ul {align-items: center;}
-li {align-items: center;}
+ul { align-items: center;}
+li { align-items: center;}
 h2 { font-family: 'Cormorant Garamond'; }
 h1 { font-family: 'Faustina'; }
 h3 { font-family: 'PT Serif'; }
 p { font-family: 'Cormorant Garamond', 'Faustina', 'PT Serif'; }
 
 header {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
     align-items: center;
     background-color: #76a3f6;
@@ -46,5 +46,5 @@ header {
     border-radius: 20px;
     padding-left: 10px;
     grid-column: 1;
-	justify-self: center;
+	align-items: center;
   } 
