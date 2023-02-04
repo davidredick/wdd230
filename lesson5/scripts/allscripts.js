@@ -1,4 +1,5 @@
-function myFunctions(){
+function myFunctions() {
     lastUpdated(); 
     year(); 
+    dateUK();
 } 
