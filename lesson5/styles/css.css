@@ -1,10 +1,11 @@
+ 
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	height: 100vh;
+	background-color: rgb(255, 255, 255);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -12,26 +13,37 @@ body {
 	font-family: Acme, Arial, sans-serif;
 }
 
-h1 {
+body h1 {
 	font-size: 1.5rem;
+	text-align: center;
 }
 
-main {
-  width: 700px;
+.body2 {
+  width: 750px;
+  align-items: center;
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  padding: 1rem;
+  background-color: rgb(230, 226, 255);
+}
+
+.body3 {
+	width: 700px;
+	align-items: center;
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.9);
 	padding: 1rem;
-	background-color: #ddd;
-	display: flex;
-	flex-direction: column;
-}
+	background-color: rgb(160, 185, 255);
+  }
 
-main ul {
-  margin: 2rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.9) ;
-  align-items: flex-start;
-  width: 500px;
-}
+.body1 {
+	width: 800px;
+	align-items: center;
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.9);
+	padding: 1rem;
+	background-color: rgb(203, 203, 255);
+  }
 
 input,
 button {
@@ -42,41 +54,10 @@ button {
 	margin: 0.5rem;
 }
 
-.delete {
-	width: fit-content;
+ul {
+	margin: 1rem;
 }
 
-.input {
-	display: flex;
-	gap: 1rem;
+li {
+	align-items: left;
 }
-
-.list {
-	padding: 0.5rem;
-}
-
-	ul {
-		margin: 1rem;
-		list-style: none;
-	}
-
-	li {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-@media only screen and (min-width: 110em) {
-	h1 {
-		font-size: 2rem;
-	}
-
-	main {
-		width: 320px;
-	}
-}
-
-div{
-  width: 600px;
-}
-
