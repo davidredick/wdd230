@@ -1,0 +1,89 @@
+
+
+@media only screen and (min-width: 1024px) {
+	
+    body {
+        max-width: 2048px;
+        min-width: 1024px;
+    
+        margin: 0 auto;
+    }
+	
+    nav button {
+		display: none;
+	}
+	
+	nav ul#primaryNav {
+		display: flex;
+		margin: 0 2vw 0 2vw;
+        flex-direction: row;
+		
+	}
+	
+	nav ul li a {
+        display: grid ;
+        padding: .5rem 1rem;
+	    border: none;
+	    text-align: center;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    nav li{
+        flex: auto ;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+  
+    }
+
+    #hero {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        aspect-ratio: unset;
+    }
+    #event {
+        grid-column: 1;
+        grid-row: 1;
+        aspect-ratio: unset;
+    }
+    #weather {
+        grid-column: 1;
+        grid-row: 2;
+        aspect-ratio: unset;
+    }
+    #signup {
+        grid-column: 1;
+        grid-row: 3;
+        aspect-ratio: unset;
+    }
+    #news {
+        grid-column: 2;
+        grid-row: 3;
+        aspect-ratio: unset;
+    }
+    #spotlightGroup {
+        grid-column: 3;
+        grid-row: 1/4;
+        grid-template-rows: 1fr 1fr 1fr;
+        align-self: auto;
+          
+    }
+    #spotlight1{
+        grid-row: 1;
+
+        aspect-ratio: 1/1;
+    }
+    #spotlight2{
+        grid-row: 2;
+        aspect-ratio: 1/1;
+    }
+    #spotlight3 {
+        grid-row: 3;
+        aspect-ratio: 1/1;
+    }
+
+}
