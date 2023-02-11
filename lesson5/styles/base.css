@@ -31,6 +31,7 @@ nav ul {
 	padding: 0;
 	margin: 0;
     overflow: hidden;
+    text-align: center;
 }
 
 nav ul li a {
@@ -44,9 +45,14 @@ nav ul li a {
 }
 
 
+
 nav ul li a:hover {
     background-color: #f2f2f2;
     color: #575757;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
 }
 
 nav ul {display: none;}
@@ -74,13 +80,14 @@ header div.date {
 h1 {
     margin-bottom: 0.25em;
 }
+
 header > span {
     font-size: medium;
     color:  #575757;
 }
 
 main {
-    display: flex;
+    display: grid;
     overflow: hidden
     width: 95%;
     margin: 20px auto;
@@ -119,6 +126,7 @@ footer {
 
 }
 #hero, #event, #weather, #news, #spotlightGroup, #signup  {
+    display: grid;
     background-color: rgba(0,0,0, .03);
     
     padding: 1em;
@@ -158,3 +166,8 @@ footer {
     background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/mickey);
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

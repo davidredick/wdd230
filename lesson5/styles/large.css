@@ -15,7 +15,8 @@
 	
 	nav ul#primaryNav {
 		display: flex;
-		margin-left: 2vw;
+		margin: 0 2vw 0 2vw;
+        flex-direction: row;
 		
 	}
 	
