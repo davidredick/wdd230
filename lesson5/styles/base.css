@@ -72,10 +72,23 @@ header {
 }
 
 header div.date {
-    float: right;
+    text-align: right;
     filter: hue-rotate(-90deg);
     font-size: 1em;
 }
+
+header figure#logo {
+    width: 50%;
+    margin: 0 0 0 0;
+    align-items: center;
+    
+}
+
+header figure#logo img {
+    width: 100%;
+    aspect-ratio: 100%;
+}
+
 
 h1 {
     margin-bottom: 0.25em;
@@ -95,6 +108,24 @@ main {
     flex-direction: column;
     gap: 20px;
 }
+
+main figure#logo {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+main figure#logo img {
+    width: 100%;
+    max-height: 75px;
+
+}
+
+main figure#logo figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
 
 
 footer {
