@@ -44,6 +44,10 @@ nav ul li a {
     font-size: 1rem;
 }
 
+nav ul li img {
+    height: 25px;
+    width: 25px;
+}
 
 
 nav ul li a:hover {
