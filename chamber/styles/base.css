@@ -168,3 +168,8 @@ footer {
     display: none;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
