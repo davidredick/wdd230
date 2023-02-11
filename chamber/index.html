@@ -22,19 +22,17 @@
 
 </head>
 
-<body onload="myFunctions()"> 
+<body onload="myFunctions()">
+
 
   <header>
       <br><br>
-      <img src="images/aberdeen_chamber_normal_white.png" height="75px" alt="aberdeen chamber logo">
-    <!-- <div id="currentDate">kisses</div> -->
-    <!--   <div id="current-date">date</div> -->
+      <figure id="logo" class="clearfix">
+      <img src="images/aberdeen_chamber_normal_white.png"  alt="aberdeen chamber logo"><br>
+    </figure>
+
+      <div class="date"><span id="currentdate"></span></div><br>
     
-    <!-- <nav> -->
-          <!-- <div id="burger-icon">
-          <img src="images/burger.svg" id="burger-open" width="30px" height="30px" alt="menu button">
-          <img src="images/close.svg" id="burger-close" class="hidden" width=30 height=30 alt="menu button">
-          </div> -->
 
 </header>
 
@@ -58,10 +56,10 @@
        <a href="#">Page4</a>
       </li>
       <li>
-        <a href="https://www.facebook.com/GreaterGHInc/" target="_blank" ><img src="images/facebook.svg" width="30px" height="30px" alt="facebook Icon" /></a>
+       <a href="https://www.facebook.com/GreaterGHInc/" target="_blank" ><img src="images/facebook.svg" alt="facebook Icon"></a>
       </li>
       <li>
-       <a href="https://twitter.com/GreaterGHInc" target="_blank"><img src="images/twitter.svg" width="30px" height="30px" alt="Twitter icon"></a>
+        <a href="https://twitter.com/GreaterGHInc" target="_blank"><img src="images/twitter.svg" alt="Twitter icon"></a>
       </li>
     </ul>
 
@@ -69,35 +67,37 @@
 
 <main>
 
-  <div class="hero">Hero</div>
-  <div class="event">Event</div>
-  <div class="weather">Weather</div>
-  <div class="news">NEWS</div>
-  <div class="spotlightGroup">
-    <div class="hero">Spotlight1</div>
-    <div class="hero">Spotlight2</div>
-    <div class="hero">Spotlight3</div>
+  <div id="hero">Hero</div>
+  <div id="event">Event</div>
+  <div id="weather">Weather</div>
+  <div id="news">NEWS</div>
+  <div id="signup">Sign Up</div>
+  <div id="spotlightGroup">
+    <div id="spotlight1">Spotlight1</div>
+    <div id="spotlight2">Spotlight2</div>
+    <div id="spotlight3">Spotlight3</div>
   </div>
-  <div class="signUp">Sign Up</div>
+
   
 
 
 
 </main>
 
-<footer>
-  <p><a href="../index.html" class="footerhref">Home</a></p>
-  <p><span id="currentyear"></span> | David Redick | Washington State | <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
-  </p>
-  <div>Last Updated: <span id="lastmodified"></span></div>
-</footer>
 
+  <footer>
+    <p><a href="../index.html" class="footerhref" >Home</a></p>
+    <p><span id="currentyear"></span> | David Redick | Washington State | <a href="https://www.byui.edu/online" class="footerhref">BYU-Idaho Online Learning</a>
+    </p>
+    <div>Last Updated: <span id="lastmodified"></span></div>
+  </footer>
 
   <script src="scripts/burger.js"></script>
   <script src="scripts/currentyear.js"></script>
   <script src="scripts/date.js"></script>
   <script src="scripts/javascript.js"></script>
   <script src="scripts/lastmodified.js"></script>
+  <script src="scripts/allscripts.js"></script>
 </body>
 
 </html>

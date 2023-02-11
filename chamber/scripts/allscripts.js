@@ -1,5 +1,5 @@
 function myFunctions() {
     lastUpdated(); 
     year(); 
-    dateUK();
+    currentDate();
 } 

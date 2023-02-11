@@ -1,13 +1,21 @@
 
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 560px) and (max-width: 1023px)  {
 
     main {
         grid-template-columns: 1fr 1fr;
+        grid-column: auto;
     }
     main > section:nth-of-type(3) {
         grid-column: span 2;
         width: 50%;
         justify-self: center;
+        aspect-ratio: 1/1;
     }
+
+    #spotlight2, #spotlight3 {
+        display: none;
+    }
+
+
 
 }

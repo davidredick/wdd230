@@ -1,13 +1,31 @@
-
-//function dateUK() {
-//    let dateNow = new date();
-//        document.getElementById("currentDate").innerHTML = Intl.DateTimeFormat("en-UK", {dateStyle: "full"}) .format(dateNow);
-
-    }
-
-    const currentDate = new Date();
-    const currentYear = currentDate.getFullYear();
-    
-    document.querySelector("#year-field").innerText = currentYear;
-    document.querySelector("#last-update-field").innerText = document.lastModified;
-    document.querySelector("#current-date").textContent = Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(currentDate);
+function currentDate() {
+    let daynames = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+    ];
+    let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ]
+    let d = new Date();
+    let dayName = daynames[d.getDay()];
+    let monthName = months[d.getMonth()];
+    let year = d.getFullYear();
+    let fulldate = dayName + "," + " " + d.getDate() + " " + monthName + " " + year;
+    document.getElementById("currentdate").textContent = fulldate;
+}
