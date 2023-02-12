@@ -166,31 +166,31 @@ footer a.footerhref {
 
 }
 #hero {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/flag1.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/flag1_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
 }
 #news {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/news1.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/news1_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
 }
 #signup {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/signup1.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/signup1_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
 }
 #event {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/event1.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/event1_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
 }
 #weather {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/cloud1.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/cloud1_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
@@ -209,21 +209,21 @@ footer a.footerhref {
 } */
 
 #spotlight1 {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/aberdeen1.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/aberdeen1_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
 }
 
 #spotlight2 {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/help2.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/help2_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
 }
 
 #spotlight3 {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/concert1_100px.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/concert1_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
