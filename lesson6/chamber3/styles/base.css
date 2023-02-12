@@ -118,26 +118,18 @@ main {
     flex-direction: column;
     gap: 20px;
 }
-/*
-main figure#logo {
-    width: 50%;
-    margin: 0 0 0 2%;
-    float: right;
-}
 
-main figure#logo img {
-    width: 100%;
-    max-height: 75px;
 
-}
- */
 footer {
     text-align: center;
     background-color: #575757;
     border-radius: 10px 10px 0 0;
-    padding: 1em;
     color: #f2f2f2;
     display: flex;
+    flex-direction: column;
+    padding: 0;
+
+
 }
 
 footer a.footerhref {
@@ -174,40 +166,65 @@ footer a.footerhref {
 
 }
 #hero {
-    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/USA,flag);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/flag1.jpg);
     aspect-ratio: 1/1;
 }
 #news {
-    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/news,);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/news1.jpg);
     aspect-ratio: 1/1;
 }
 #signup {
-    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/join,membership);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/signup1.jpg);
     aspect-ratio: 1/1;
 }
 #event {
-    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/event,commerce);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/event1.jpg);
     aspect-ratio: 1/1;
 }
 #weather {
-    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/weather,clouds);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/cloud1.jpg);
     aspect-ratio: 1/1;
 }
 #spotlightGroup {
-    aspect-ratio:unset;
+    aspect-ratio:1/3;
 }
    
 
-#spotlight1, #spotlight2, #spotlight3 {
+/* #spotlight1, #spotlight2, #spotlight3 {
     background-color: rgba(0,0,0, .2);
     box-shadow: 0 .1em .3em rgba(0,0,0, .2);
     aspect-ratio: 1/1;
     padding: 1em;
-    background-image:  linear-gradient(0deg, rgb(231, 231, 231), rgba(172, 172, 172, 0.6)), url(https://loremflickr.com/700/400/mickey);
+
+} */
+
+#spotlight1 {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/aberdeen1.jpg);
 }
+
+#spotlight2 {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/help2.jpg);
+    background-color: rgba(0,0,0, .2);
+    box-shadow: 0 .1em .3em rgba(0,0,0, .2);
+    aspect-ratio: 1/1;
+    padding: 1em;
+}
+
+#spotlight3 {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/concert1_100px.jpg);
+}
+
 
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
+
+.gr-backdrop {
+    background-image: linear-gradient(180deg, rgba(231, 231, 231,.8) 80%, rgba(172, 172, 172,.6), rgba(255,255,255,0));
+    margin:unset;
+    height: fit-content;
+    text-shadow: 0 0 5px rgb(253, 253, 239);
+    padding: 1em;
+}
