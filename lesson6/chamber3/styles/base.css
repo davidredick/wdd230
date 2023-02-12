@@ -167,22 +167,32 @@ footer a.footerhref {
 }
 #hero {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/flag1.jpg);
+    background-size:cover;
+    background-position-y: center;
     aspect-ratio: 1/1;
 }
 #news {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/news1.jpg);
+    background-size:cover;
+    background-position-y: center;
     aspect-ratio: 1/1;
 }
 #signup {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/signup1.jpg);
+    background-size:cover;
+    background-position-y: center;
     aspect-ratio: 1/1;
 }
 #event {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/event1.jpg);
+    background-size:cover;
+    background-position-y: center;
     aspect-ratio: 1/1;
 }
 #weather {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/cloud1.jpg);
+    background-size:cover;
+    background-position-y: center;
     aspect-ratio: 1/1;
 }
 #spotlightGroup {
@@ -200,18 +210,23 @@ footer a.footerhref {
 
 #spotlight1 {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/aberdeen1.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
 }
 
 #spotlight2 {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/help2.jpg);
-    background-color: rgba(0,0,0, .2);
-    box-shadow: 0 .1em .3em rgba(0,0,0, .2);
+    background-size:cover;
+    background-position-y: center;
     aspect-ratio: 1/1;
-    padding: 1em;
 }
 
 #spotlight3 {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/concert1_100px.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
 }
 
 
@@ -224,8 +239,8 @@ footer a.footerhref {
 .gr-backdrop {
     background-image: linear-gradient(180deg, rgba(231, 231, 231,.8) 80%, rgba(172, 172, 172,.6), rgba(255,255,255,0));
     margin:unset;
-    width: fit-content;
-   /* height: fit-content; */
+   /* width: fit-content; */
+    height: fit-content;
     text-shadow: 0 0 5px rgb(253, 253, 239);
     padding: 1em;
 }
