@@ -199,11 +199,12 @@ footer a.footerhref {
 
 #weather div.weatherbox {
     position: absolute;
-    /*border: 2px solid black;
-    margin: 0em 2em 0em 0em; */
     padding-left: 2em;
-    background-color: rgba(242, 242, 242, .5);
-    width: 200px;
+    background-color: rgba(242, 242, 242, .4);
+    height: 45%;
+    min-height: 170px;
+    width: 45%;
+    min-width: 200px;
     margin: 0 0 0 0;
     bottom: 10%;
     left: 10%;
