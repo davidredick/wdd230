@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faustina:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+html {
+    background-color: #f2f2f2;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 { font-family: 'Cormorant Garamond', sans-serif; font-size: 25px;}
+h1 { font-family: 'Faustina', sans-serif ; font-size: 30px;}
+h3 { font-family: 'PT Serif', sans-serif; font-size: 20px;}
+p, pre { font-family: 'Cormorant Garamond', sans-serif; font-size: 18px; }
+a {font-family: 'Faustina', sans-serif ; font-size: 18px; }
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #575757;
+    text-align: center;
+    box-shadow: 0 5px 15px #575757;   
+}
+
+nav button {
+	margin: .2rem 2vw;
+	background: transparent;
+	border: none;
+	font-size: 2rem;
+	color: #f2f2f2;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li a {
+	display: block;
+	padding: .8rem 2vw;
+	border-top: 1px solid rgba(0,0,0,0.5);
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav img {
+    height: 25px;
+    width: 25px;
+}
+
+
+nav ul li a:hover {
+    background-color: #f2f2f2;
+    color: #575757;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerButton span:nth-child(1) {display: block;}
+#hamburgerButton span:nth-child(2) {display: none;}
+
+#hamburgerButton.open span:nth-child(1) {display: none;}
+#hamburgerButton.open span:nth-child(2) {display: block;}
+
+
+header {
+    text-align: center;
+    background-color: #575757;
+    color: #f2f2f2;
+}
+
+header div.date {
+    text-align: right;
+    filter: hue-rotate(-90deg);
+    font-size: 1em;
+}
+
+header figure#logo {
+    width: 50%;
+    margin: 0 0 0 0;
+    align-items: center;
+    
+}
+
+header figure#logo img {
+    width: 100%;
+}
+
+
+h1 {
+    margin-bottom: 0.25em;
+}
+
+header > span {
+    font-size: medium;
+    color:  #575757;
+}
+
+main {
+    display: grid;
+    overflow: hidden;
+    width: 95%;
+    margin: 20px auto;
+    padding: 1em 1em;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #575757;
+    border-radius: 10px 10px 0 0;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+
+}
+
+footer a.footerhref {
+    color: #f2f2f2;
+}
+
+#lst-updt {
+    padding-top: 5px;
+    display: block;
+    font-size: small;
+    color: #f2f2f2;
+}
+
+ header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+
+#hero, #event, #weather, #news, #spotlightGroup, #signup  {
+    display: grid;
+    background-color: rgba(0,0,0, .03);
+    
+    padding: 1em;
+    border-radius: .5em;
+    overflow: hidden;
+    border: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#hero {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/wdd230_small.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
+}
+
+#news {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/news1_small.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
+}
+#signup {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/signup1_small.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
+}
+#event {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/event1_small.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
+}
+#weather {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/cloud1_small.jpg);
+    background-size:cover;
+    background-position-y: center;
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
+#weather div.weatherbox {
+    position: absolute;
+    padding-left: 2em;
+    background-color: rgba(242, 242, 242, .4);
+    height: 45%;
+    min-height: 170px;
+    width: 45%;
+    min-width: 200px;
+    margin: 0 0 0 0;
+    bottom: 10%;
+    left: 10%;
+   
+}
+
+main div#hero picture#backgroundhero img {
+         max-width: 100%;
+         max-height: 100%;
+}
+
+#weather div.weatherbox img {
+    
+    width: 35%;
+    float: left;
+    top: 40%;
+    left: 20%;
+   
+}
+
+
+#weather div.weatherbox span {
+    box-decoration-break: unset;   
+}
+
+
+
+#spotlightGroup {
+    aspect-ratio:1/3;
+}
+   
+
+/* #spotlight1, #spotlight2, #spotlight3 {
+    background-color: rgba(0,0,0, .2);
+    box-shadow: 0 .1em .3em rgba(0,0,0, .2);
+    aspect-ratio: 1/1;
+    padding: 1em;
+
+} */
+
+#spotlight1 {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/aberdeen1_small.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
+}
+
+#spotlight2 {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/help2_small.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
+}
+
+#spotlight3 {
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/concert1_small.jpg);
+    background-size:cover;
+    background-position-y: center;
+    aspect-ratio: 1/1;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.gr-backdrop {
+    background-image: linear-gradient(180deg, rgba(231, 231, 231,.8) 80%, rgba(172, 172, 172,.6), rgba(255,255,255,0));
+    margin:unset;
+    height: fit-content;
+    text-shadow: 0 0 5px rgb(242, 242, 242);
+    padding: 1em;
+}
