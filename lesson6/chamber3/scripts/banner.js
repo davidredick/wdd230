@@ -4,7 +4,7 @@ function headingbanner () {
     let header = document.querySelector("header");
     let dayOfTheWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-    if(dayOfTheWeek[day] == "Monday" | dayOfTheWeek[day] == "Tuesday" | dayOfTheWeek[day] == "Saturday") {
+    if(dayOfTheWeek[day] == "Monday" | dayOfTheWeek[day] == "Tuesday") {
 
         let alertBanner = document.createElement("div");
         alertBanner.innerHTML = '<span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>';
