@@ -12,6 +12,10 @@
         aspect-ratio: 1/1;
     }
 
+    #spotlightGroup {
+        aspect-ratio:1/1;
+    }
+
     #spotlight2, #spotlight3 {
         display: none;
     }

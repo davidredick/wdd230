@@ -166,11 +166,12 @@ footer a.footerhref {
 
 }
 #hero {
-    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/flag1_small.jpg);
+    background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/wdd230_small.jpg);
     background-size:cover;
     background-position-y: center;
     aspect-ratio: 1/1;
 }
+
 #news {
     background-image:radial-gradient(rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0.1)), url(../images/news1_small.jpg);
     background-size:cover;
@@ -211,6 +212,11 @@ footer a.footerhref {
    
 }
 
+main div#hero picture#backgroundhero img {
+         max-width: 100%;
+         max-height: 100%;
+         float:bottom()
+}
 
 #weather div.weatherbox img {
     

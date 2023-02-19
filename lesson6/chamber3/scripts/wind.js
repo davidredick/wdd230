@@ -12,10 +12,10 @@ function CalculateWindChill(speed, temp) {
     }
 }
 
-document.querySelector("#temperature").textContent = temperature + fer;
-document.querySelector("#wind-speed").textContent = windSpeed;
-document.querySelector("#wind-chill").textContent = CalculateWindChill(windSpeed, temperature).toFixed(1);
-/*document.querySelector("#weather-icon").setAttribute("src", "images/weather-rainy.svg");*/
+document.querySelector("#outsidetemp").textContent = temperature + fer;
+document.querySelector("#windspeed").textContent = windSpeed;
+document.querySelector("#windchill").textContent = CalculateWindChill(windSpeed, temperature).toFixed(1);
+/*document.querySelector("#weatherpic").setAttribute("src", "images/weather-rainy.svg");*/
 
 
 }

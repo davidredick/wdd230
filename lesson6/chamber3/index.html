@@ -67,7 +67,12 @@
 
 <main>
 
-  <div id="hero">
+  <div id="hero" class="gr-backdrop">
+    <picture id="backgroundhero">
+      <source media="(min-width: 1024px)" srcset="images/wdd230_large.jpg">
+      <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/wdd230_medium.jpg"> 
+      <img src="images/wdd230_small.jpg" alt="WDD 230 Meeting.">
+  </picture>
     <div class="gr-backdrop">
     <h3>Hero</h3>
     <p>Be all that you can BEE</p>
@@ -88,18 +93,18 @@
     </div>
     <div class="weatherbox">
       <div>
-      <img src="images/weatherimg.png" alt="weather icon small">
-      <p><span id="temperature"></span></p>
-      <p><span id="weather-description">Partly Cloudy</span></p>
+      <img src="images/weatherimg.png" id="weatherpic" alt="weather icon small">
+      <p><span id="outsidetemp"></span></p>
+      <p><span id="outsideweather">Partly Cloudy</span></p>
      </div>
      <div>
-      <p>Wind Speed: <span id="wind-speed">2.5</span> mp/h</p>
-      <p>Wind Chill: <span id="wind-chill">N/A</span> ℉</p>
+      <p>Wind Speed: <span id="windspeed">2.5</span> mp/h</p>
+      <p>Wind Chill: <span id="windchill">N/A</span> ℉</p>
      </div>
+
     </div>
 
 
-  
    </div>
   
   <div id="news">
