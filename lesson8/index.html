@@ -2,9 +2,9 @@
 <html lang="en-us">
 <head>
 <meta name="viewport", charset="utf-8", content="width=device-width, initial-scale=1.0">
-<meta name="description" content="wdd230 portal>
+<meta name="description" content="Lesson 8">
 
-<title> wdd230 Default Page </title>
+<title> Lesson 8 </title>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faustina:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="styles/normalize.css">
 
 <link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/tablecss.css">
+
 
 <script src="scripts/currentyear.js"></script>
 <script src="scripts/lastmodified.js"></script>
@@ -26,13 +28,57 @@
 
 <body onload="myFunctions()">
 
-  <header>
-    <img src="images/download.jfif" alt="David" align>
-    <h1>David Redick</h1>
-
-  </header>
 
 <p>Lesson 8</p>
+
+<table>
+  <caption>
+    ACME Wild West Services
+  </caption>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Basic</th>
+      <th>Premium</th>
+      <th>Deluxe</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Feature 1</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>✔️</td>
+
+    </tr>
+    <tr>
+      <td>Feature 1</td>
+      <td>❌</td>
+      <td>✔️</td>
+      <td>✔️</td>
+
+    </tr>
+    <tr>
+      <td>Feature 1</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔️</td>
+
+    </tr>
+
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="4">Table 1: Account Feature Comparision</td>
+    </tr>
+
+  </tfoot>
+
+
+</table>
+
 
   <footer>
     <p><a href="../index.html">Home</a></p>
