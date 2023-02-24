@@ -18,8 +18,8 @@ th {
 
 }
 
-th:nth-child(n+3) {
-    border-left: 1px;
+th:nth-child(n + 3) {
+    border-left: 1px solid black;
 }
 
 caption {
@@ -42,12 +42,12 @@ thead {
 }
 
 th:nth-child(n + 2) {
-    background-color: darkgray;
+    background-color: lightblue;
     color: white;
 }
 
 tbody td {
-    border: 1px black;
+    border: 1px solid rgba(0, 0, 0, 1);
     padding-left: 12px;
     padding-right: 12px; 
     padding-top: 15px;
