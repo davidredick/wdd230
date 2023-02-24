@@ -4,5 +4,6 @@ function myFunctions() {
     currentDate();
     headingbanner();
     windchill();
+    lazyfunction ();
 
 } 
