@@ -301,15 +301,6 @@ div.discoverybody {
 
 }
 
-main div.discoverywrap {
-/*    grid-template-columns: 1fr;
-    grid-column: auto; */
-  /*  align: center;
-    
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0; */
-}
 
 main.discoverymain {
     display: flex;
@@ -317,5 +308,79 @@ main.discoverymain {
     align-content: center;
     margin: 1rem 0;
 }
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    background-color: darkblue;
+    font-size: 25px;
+    padding-left: 12px;
+    padding-right: 12px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+
+}
+
+th:nth-child(n + 3) {
+    border-left: 1px solid black;
+}
+
+caption {
+    background-color: darkblue;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table caption {
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+thead {
+    border: 1px black solid;
+}
+
+th:nth-child(n + 2) {
+    background-color: lightblue;
+    color: white;
+}
+
+tbody td {
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding-left: 12px;
+    padding-right: 12px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+td {
+    text-align: center;
+}
+
+td:nth-child(n + 2) {
+    color: green;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr td:nth-child(1) {
+    font-weight: bold;
+}
+
 
 
