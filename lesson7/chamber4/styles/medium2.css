@@ -1,0 +1,33 @@
+@media only screen and (min-width: 37.5em) {
+    main {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .columnthree {
+        grid-column: span 2;
+        margin-top: 10px;
+
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+
+
+    .imagethree {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+}
