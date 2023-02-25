@@ -1,23 +1,22 @@
-html {
-    background-color: white;
-}
-body {
-    border: 1px solid darlblue);
-    border-radius: .5em;
-    display: flex;
-    row-gap: 2em;
-    align-items: center;
-    max-width: 25em;
-    flex-direction: column;
-    margin: 2em auto;
-    box-shadow: 1em 1em .4em rgba(0,0,0,.3);
-    background-color: rgb(255, 251, 247);
 
+
+body {
+    width: auto;
+    text-align: center;
 }
+
+picture {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
 img[data-src] {
     filter: blur(0.4em);
 }
+
 img {
-    filter: blur(0em);
-    transition: filter 4s;
+    display: block;
+    justify-self: center;
+    transition: filter 1s;
 }
