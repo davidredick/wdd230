@@ -72,7 +72,7 @@
             <legend>Applicant Information</legend>
             <label class="top">First Name*<input type="text" name="fname" required ></label>
             <label class="top">Last Name*<input type="text" name="lname" required ></label>
-            <label class="top">Business Title<input type="text" name="businessTitle" ></label>
+            <label class="top">Business Title<input type="text" name="businessTitle" minlength="7" pattern="^[a-zA-Z- ]{7,}"></label>
             <label class="top">Cell Phone<input type="tel" name="phone" ></label>
             <label class="top">Email*<input type="email" name="email" placeholder="user@user.com" required></label>
             <label class="top">URL*<input type="url" name="url" placeholder="http://" required></label>
