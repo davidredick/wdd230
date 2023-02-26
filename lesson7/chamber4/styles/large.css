@@ -114,5 +114,12 @@
         grid-column: 3 
     }
 
+    form label.sbs {
+        padding: .4rem 0;
+        align-items: left;
+        
+    }
+    
+
 
 }

@@ -13,12 +13,11 @@
 
 
 
-<link rel="stylesheet" href="styles/normalize.css">
+<!-- <link rel="stylesheet" href="styles/normalize.css"> -->
 <link rel="stylesheet" href="styles/base.css">
 <link rel="stylesheet" href="styles/medium.css">
 <link rel="stylesheet" href="styles/large.css">
-<link rel="stylesheet" href="styles/lazyload.css">
-<link rel="stylesheet" href="styles/style.css">
+<!-- <link rel="stylesheet" href="styles/style.css"> -->
 
 
 </head>
@@ -51,7 +50,7 @@
        <a href="#">Directory</a>
       </li>
       <li>
-       <a href="#">Join</a>
+       <a href="join.html">Join</a>
       </li>
       <li>
        <a href="#">Contact</a>
@@ -66,44 +65,14 @@
 
 </nav>
 
-<main class="none">
-    <form method="get" action="thanks.html" id="joinform">
-        <fieldset>
-            <legend>Applicant Information</legend>
-            <label class="top">First Name*<input type="text" name="fname" required ></label>
-            <label class="top">Last Name*<input type="text" name="lname" required ></label>
-            <label class="top">Business Title<input type="text" name="businessTitle" ></label>
-            <label class="top">Cell Phone<input type="tel" name="phone" ></label>
-            <label class="top">Email*<input type="email" name="email" placeholder="user@user.com" required></label>
-            <label class="top">URL*<input type="url" name="url" placeholder="http://" required></label>
-        </fieldset>
-        <fieldset>
-            <legend>Choose</legend>
-            <div>Membership Level</div>
-            <label class=sbs><input type="radio" name="membership" value="nonProfit"> NP Membership (Free) </label>
-            <label class=sbs><input type="radio" name="membership" value="bronze"> Bronze ($50 Annual)</label>
-            <label class=sbs><input type="radio" name="membership" value="silver"> Silver ($100 Annual)</label>
-            <label class=sbs><input type="radio" name="membership" value="gold"> Gold ($200 Annual)</label>
-
-        </fieldset>
-        <fieldset>
-            <legend class="top">Tell us about you</legend>
-            <label class="top">Business Info<textarea rows="4" cols="50" name="comment" form="joinform"></textarea></label>
+    <picture class="thanks"><img src="images/thanks.jpg"></picture>
 
 
-                        
-        </fieldset>
-        <input type="hidden" name="datetime" id="hidden-datetime">
-
-        <input type="submit" value="Join Us" class="submitBtn">
-    </form>
-
-</main>
 
 
   <footer>
       <figure id="logofoot">
-        <img src="images/aberdeen_small_white.jpeg" alt="bottom-logo">
+        <img src="images/aberdeen_small_white.png" alt="bottom-logo">
       </figure>
     
       
@@ -133,7 +102,6 @@
     </div>
   </footer>
 
-  <script src="scripts/lazyload.js"></script>
   <script src="scripts/allscripts.js"></script>
   <script src="scripts/burger.js"></script>
   <script src="scripts/currentyear.js"></script>
