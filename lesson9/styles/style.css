@@ -1,16 +1,36 @@
-h1 {text-align: center;}
-h2 {text-align: center;}
-p {text-align: center; }
-div {text-align: center;}
-button {text-align: center;}
-body {background-color:#D4DEF1;}
-img {align-items: center;}
-ul {align-items: center;}
-li {align-items: center;}
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Faustina', serif;
-font-family: 'PT Serif', serif;
-h2 { font-family: 'Cormorant Garamond'; }
-h1 { font-family: 'Faustina'; }
-h3 { font-family: 'PT Serif'; }
-p { font-family: 'Cormorant Garamond', 'Faustina', 'PT Serif'; }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+section {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+
+h2 {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+main>div.cards img:hover {
+    border: 2px solid blue;
+}
