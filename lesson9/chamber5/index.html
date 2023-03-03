@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="description" content="Aberdeen Chamber">
+<meta name="author" content="David Redick">
+
+<title>Aberdeen Chamber</title>
+<link href="images/aberdeen_small.png" rel="icon" type="image/icon">
+<link rel="icon" href="images/favicon.ico">
+
+
+
+<!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/medium.css">
+<link rel="stylesheet" href="styles/large.css">
+<!-- <link rel="stylesheet" href="styles/style.css"> -->
+
+
+</head>
+
+<body onload="myFunctions()">
+
+
+  <header>
+      <br><br>
+      <figure id="logo" class="clearfix">
+      <img src="images/aberdeen_chamber_normal_white.webp"  alt="aberdeen chamber logo"><br>
+    </figure>
+
+      <div class="date"><span id="currentdate"></span></div><br>
+    
+
+</header>
+
+  <nav>
+    <button id="hamburgerButton"><span>&#9776;</span><span>X</span></button>
+
+    <ul id="primaryNav">
+      <li>
+       <a href="index.html">Home</a>
+      </li>
+      <li>
+       <a href="discover.html">Discover</a>
+      </li>
+      <li>
+       <a href="#">Directory</a>
+      </li>
+      <li>
+       <a href="join.html">Join</a>
+      </li>
+      <li>
+       <a href="#">Contact</a>
+      </li>
+      <li>
+       <a href="https://www.facebook.com/GreaterGHInc/" target="_blank" ><img src="images/facebook.svg" alt="facebook Icon"></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/GreaterGHInc" target="_blank"><img src="images/twitter.svg" alt="Twitter icon"></a>
+      </li>
+    </ul>
+
+</nav>
+
+<main>
+
+  <div id="hero" class="gr-backdrop">
+    <picture id="backgroundhero">
+      <source media="(min-width: 1024px)" srcset="images/wdd230_large.jpg">
+      <source media="(min-width: 560px) and (max-width: 1023px)" srcset="images/wdd230_medium.jpg"> 
+      <img src="images/wdd230_small.jpg" alt="WDD 230 Meeting.">
+  </picture>
+    <div class="gr-backdrop">
+    <h3>Hero</h3>
+    <p>Be all that you can BEE</p>
+  </div>
+  </div>
+  
+  <div id="event">
+    <div class="gr-backdrop">
+      <h3>Event</h3>
+      <p>Come look... See:)</p>
+    </div>
+  </div>
+  
+  <div id="weather">
+    <div class="gr-backdrop">
+      <h3>Weather</h3>
+      <p>What is the Weather today?</p>
+    </div>
+    <div class="weatherbox">
+      <div>
+      <img src="images/weatherimg.png" id="weatherpic" alt="weather icon small">
+      <p><span id="outsidetemp"></span></p>
+      <p><span id="outsideweather">Partly Cloudy</span></p>
+     </div>
+     <div>
+      <p>Wind Speed: <span id="windspeed">2.5</span> mp/h</p>
+      <p>Wind Chill: <span id="windchill">N/A</span> ℉</p>
+     </div>
+
+    </div>
+
+
+   </div>
+  
+  <div id="news">
+    <div class="gr-backdrop">
+      <h3>NEWS</h3>
+      <pre>
+        North
+        East
+        West
+        South
+      </pre>
+    </div>
+  </div>
+  
+  <div id="signup">
+    <div class="gr-backdrop">
+      <h3>Sign Up</h3>
+      <p>Come and get to know us</p>
+    </div>
+  </div>
+  
+  <div id="spotlightGroup">
+    
+    <div id="spotlight1">
+      <div class="gr-backdrop">
+        <h3>spotlight1</h3>
+        <p>What is happening 1</p>
+      </div>
+    </div>
+    
+    <div id="spotlight2">
+      <div class="gr-backdrop">
+        <h3>spotlight2</h3>
+        <p>What is happening 1</p>
+      </div>
+    </div>
+    
+    <div id="spotlight3">
+      <div class="gr-backdrop">
+        <h3>spotlight3</h3>
+        <p>What is happening 1</p>
+      </div>
+    </div>
+
+  </div>
+
+  
+
+
+
+</main>
+
+
+  <footer>
+      <figure id="logofoot">
+        <img src="images/aberdeen_small_white.webp" alt="bottom-logo">
+      </figure>
+    
+      
+      <div id="address-phone">
+        <pre>
+        506 Duffy Street
+        Aberdeen, WA 98520
+        <a href="https://www.google.com/maps/place/506+Duffy+St,+Aberdeen,+WA+98520/@46.9755096,-123.8448956,17z/data=!3m1!4b1!4m5!3m4!1s0x5492398c2aa0158f:0x3de06c4ef793c2f9!8m2!3d46.9755096!4d-123.8427069" class="footerhref" target="_blank">Map Location</a>
+      </pre>
+      
+    </div>
+      
+      <div id="email">
+        <pre>
+
+        Email: <a href="mailto://dave@davidredick.com" class="footerhref">dave@davidredick.com</a>
+        Phone: 
+        </pre>
+
+      </div>
+
+   
+    <div id="verybottom">
+    <pre><a href="../index.html" class="footerhref" >Home</a>
+    <span id="currentyear"></span> | David Redick | Washington State | <a href="https://www.byui.edu/online" class="footerhref">BYU-Idaho Online Learning</a>
+    Last Updated: <span id="lastmodified"></span></pre>
+    </div>
+  </footer>
+
+  <script src="scripts/allscripts.js"></script>
+  <script src="scripts/burger.js"></script>
+  <script src="scripts/currentyear.js"></script>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/javascript.js"></script>
+  <script src="scripts/lastmodified.js"></script>
+  <script src="scripts/banner.js"></script>
+  <script src="scripts/wind.js"></script>
+</body>
+
+</html>
