@@ -9,7 +9,20 @@
         "order": 1,
         "birthplace": "Vermont",
         "numofchildren": 11,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg",
+        "companyname": "Grays Harbor College",
+        "biline": "Learning starts here!",
+        "contactname": "Dr. Carli Schiffner",
+        "address1": "1620 Edward P Smith Dr",
+        "address2": "",
+        "city": "Aberdeen" ,
+        "state": "WA" ,
+        "zipcode": "98520",
+        "website": "https://www.ghc.edu/",
+        "logourl": "https://www.ghc.edu/sites/all/themes/ghc/images/logo_blue.png",
+        "photourl": "https://www.ghc.edu/sites/default/files/styles/main_page_image/public/images/pages/community_ed.jpg?itok=lpje7K3Z",
+        "membershiplevel": "Free: Non-Profit",
+
       },
       {
         "name": "Brigham",
