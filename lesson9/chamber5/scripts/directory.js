@@ -4,7 +4,7 @@ const urll = 'https://davidredick.com/wdd230/aberdeen.json';
 const url = 'https://davidredick.github.io/wdd230/lesson9/chamber5/jsons/aberdeen2.json';
 
 
-async function getCompanyData() {
+async function getBusinessData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.businesses);
@@ -35,7 +35,7 @@ async function getCompanyData() {
       p.innerHTML += `Membership Level: ${business.membershiplevel}<br>`;
   
       // Build the image portrait by setting all the relevant attribute
-      portrait.setAttribute('src', business.logoeurl);
+      portrait.setAttribute('src', business.logourl);
       portrait.setAttribute('alt', `Business Logo of: ${business.businessname}`);
       portrait.setAttribute('loading', 'lazy');
       portrait.setAttribute('width', '340');
@@ -50,4 +50,4 @@ async function getCompanyData() {
     }) // end of forEach loop
 } // end of function expression
   
-  getCompanyData();
+getBusinessDataa();
