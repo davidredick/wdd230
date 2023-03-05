@@ -7,14 +7,16 @@ const url = 'https://davidredick.github.io/wdd230/lesson9/chamber5/jsons/aberdee
 async function getCompanyData() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.business);
-    displaybusiness(data.business);  // note that we reference the business array of the data object given the structure of the json file
+    console.table(data.businesses);
+    displaybusinesses(data.businesses);  // note that we reference the business array of the data object given the structure of the json file
+
+
   }
 
-  const displaybusiness = (business) => {
+  const displaybusinesses = (businesses) => {
     const cards = document.querySelector('div.cards'); // select the output container element
   
-    business.forEach((business) => {
+    businesses.forEach((business) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       let h2 = document.createElement('h2');

@@ -1,6 +1,6 @@
 const urll = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-const url = 'https://davidredick.github.io/wdd230/lesson9/chamber5/jsons/aberdeen.json';
-const urlll = '..\https://davidredick.com/wdd230/latter-day-prophets.json';
+const urlll = 'https://davidredick.github.io/wdd230/lesson9/chamber5/jsons/aberdeen.json';
+const url = 'https://davidredick.github.io/wdd230/lesson9/chamber5/jsons/aberdeen2.json';
 
 
 async function getProphetData() {
