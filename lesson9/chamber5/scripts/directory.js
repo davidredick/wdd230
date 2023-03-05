@@ -1,5 +1,5 @@
 const urlll = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
-const urll = 'https://davidredick.com/wdd230/aberdeen2.json';
+const urll = 'https://davidredick.com/wdd230/aberdeen.json';
 
 const url = 'https://davidredick.github.io/wdd230/lesson9/chamber5/jsons/aberdeen.json';
 
