@@ -1,4 +1,5 @@
-/*const url = 'https://davidredick.com/wdd230/latter-day-prophets.json'; */
+const urll = 'https://davidredick.com/wdd230/lesson9/chamber5/jsons/aberdeen2.json';
+
 const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
 
 async function getProphetData() {
@@ -42,4 +43,4 @@ async function getProphetData() {
     }) // end of forEach loop
 } // end of function expression
   
-  getProphetData();
+  getProphetData();```
