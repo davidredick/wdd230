@@ -1,22 +1,43 @@
 {
     "Companys": [
       {
-        "companyname": "",
-        "biline": "",
-        "address1": "",
+        "companyname": "Grays Harbor College",
+        "biline": "Learning starts here!",
+        "contactname": "Dr. Carli Schiffner",
+        "address1": "1620 Edward P Smith Dr",
         "address2": "",
-        "city": ,
-        "state": ,
-        "zipcode": "",
-        "website": ,
-        "logoeurl": "",
-        "photourl": "",
-        "membershiplevel": "",
-        "order": "",
+        "city": "Aberdeen" ,
+        "state": "WA" ,
+        "zipcode": "98520",
+        "website": "https://www.ghc.edu/",
+        "logoeurl": "https://www.ghc.edu/sites/all/themes/ghc/images/logo_blue.png",
+        "photourl": "https://www.ghc.edu/sites/default/files/styles/main_page_image/public/images/pages/community_ed.jpg?itok=lpje7K3Z",
+        "membershiplevel": "Free: Non-Prophet",
+        "order": 1,
 
 
 
       },
-     
+
+      {
+        "companyname": "",
+        "biline": "",
+        "address1": "",
+        "address2": "",
+        "city": "Aberdeen" ,
+        "state": "WA" ,
+        "zipcode": "98520",
+        "website": "",
+        "logoeurl": "",
+        "photourl": "",
+        "membershiplevel": "Free: Non-Prophet",
+        "order": 2,
+
+
+
+      },
+
+
+
     ]
   }
