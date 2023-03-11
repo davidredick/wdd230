@@ -1,0 +1,20 @@
+html{
+    background-color: white;
+}
+body{
+    text-align: center;
+
+    margin: 25px auto;
+    width: fit-content;
+    background-image: linear-gradient(rgb(211, 211, 211), rgb(173, 216, 230));
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: solid 2px black ;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+h1{
+    font-style: strong;
+}
