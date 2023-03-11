@@ -5,7 +5,8 @@ body{
     text-align: center;
 
     margin: 25px auto;
-    width: fit-content;
+    min-width: fit-content;;
+    width: 60%;
     background-image: linear-gradient(rgb(211, 211, 211), rgb(173, 216, 230));
     background-repeat: no-repeat;
     overflow: hidden;
@@ -16,5 +17,5 @@ body{
 }
 
 h1{
-    font-style: strong;
+    font-style: oblique;
 }
