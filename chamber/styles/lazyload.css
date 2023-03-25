@@ -1,0 +1,22 @@
+
+
+body {
+    width: auto;
+    text-align: center;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+img[data-src] {
+    filter: blur(0.4em);
+}
+
+img {
+    display: block;
+    justify-self: center;
+    transition: filter 1s;
+}

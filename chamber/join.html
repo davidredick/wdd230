@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FHGDX14D9P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FHGDX14D9P');
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="description" content="Aberdeen Chamber">
+<meta name="author" content="David Redick">
+
+<title>Aberdeen Chamber</title>
+<link href="images/aberdeen_small.png" rel="icon" type="image/icon">
+<link rel="icon" href="images/favicon.ico">
+
+
+
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/medium.css">
+<link rel="stylesheet" href="styles/large.css">
+<link rel="stylesheet" href="styles/lazyload.css">
+<link rel="stylesheet" href="styles/style.css">
+
+
+</head>
+
+<body onload="myFunctions()">
+
+
+  <header>
+      <br><br>
+      <figure id="logo" class="clearfix">
+      <img src="images/aberdeen_chamber_normal_white.webp"  alt="aberdeen chamber logo"><br>
+    </figure>
+
+      <div class="date"><span id="currentdate"></span></div><br>
+    
+
+</header>
+
+  <nav>
+    <button id="hamburgerButton"><span>&#9776;</span><span>X</span></button>
+
+    <ul id="primaryNav">
+      <li>
+       <a href="index.html">Home</a>
+      </li>
+      <li>
+       <a href="discover.html">Discover</a>
+      </li>
+      <li>
+        <a href="directory.html">Directory</a>
+      </li>
+      <li>
+       <a href="join.html">Join</a>
+      </li>
+      <li>
+       <a href="#">Contact</a>
+      </li>
+      <li>
+       <a href="https://www.facebook.com/GreaterGHInc/" target="_blank" ><img src="images/facebook.svg" alt="facebook Icon"></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/GreaterGHInc" target="_blank"><img src="images/twitter.svg" alt="Twitter icon"></a>
+      </li>
+    </ul>
+
+</nav>
+
+<main class="none">
+    <form method="get" action="thanks.html" id="joinform">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top">First Name*<input type="text" name="fname" required ></label>
+            <label class="top">Last Name*<input type="text" name="lname" required ></label>
+            <label class="top">Business Title<input type="text" name="businessTitle" minlength="7" pattern="^[a-zA-Z- ]{7,}"></label>
+            <label class="top">Cell Phone<input type="tel" name="phone" ></label>
+            <label class="top">Email*<input type="email" name="email" placeholder="user@user.com" required></label>
+            <label class="top">URL*<input type="url" name="url" placeholder="http://" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose</legend>
+            <div>Membership Level</div>
+            <label class=sbs><input type="radio" name="membership" value="nonProfit"> NP Membership (Free) </label>
+            <label class=sbs><input type="radio" name="membership" value="bronze"> Bronze ($50 Annual)</label>
+            <label class=sbs><input type="radio" name="membership" value="silver"> Silver ($100 Annual)</label>
+            <label class=sbs><input type="radio" name="membership" value="gold"> Gold ($200 Annual)</label>
+
+        </fieldset>
+        <fieldset>
+            <legend class="top">Tell us about you</legend>
+            <label class="top">Business Info<textarea rows="4" cols="50" name="comment" form="joinform"></textarea></label>
+
+
+                        
+        </fieldset>
+        <input type="hidden" name="datetime" id="hidden-datetime">
+
+        <input type="submit" value="Join Us" class="submitBtn">
+    </form>
+
+</main>
+
+
+  <footer>
+      <figure id="logofoot">
+        <img src="images/aberdeen_small_white.png" alt="bottom-logo">
+      </figure>
+    
+      
+      <div id="address-phone">
+        <pre>
+        506 Duffy Street
+        Aberdeen, WA 98520
+        <a href="https://www.google.com/maps/place/506+Duffy+St,+Aberdeen,+WA+98520/@46.9755096,-123.8448956,17z/data=!3m1!4b1!4m5!3m4!1s0x5492398c2aa0158f:0x3de06c4ef793c2f9!8m2!3d46.9755096!4d-123.8427069" class="footerhref" target="_blank">Map Location</a>
+      </pre>
+      
+    </div>
+      
+      <div id="email">
+        <pre>
+
+        Email: <a href="mailto://dave@davidredick.com" class="footerhref">dave@davidredick.com</a>
+        Phone: 
+        </pre>
+
+      </div>
+
+   
+    <div id="verybottom">
+    <pre><a href="../index.html" class="footerhref" >Home</a>
+    <span id="currentyear"></span> | David Redick | Washington State | <a href="https://www.byui.edu/online" class="footerhref">BYU-Idaho Online Learning</a>
+    Last Updated: <span id="lastmodified"></span></pre>
+    </div>
+  </footer>
+
+  <script src="scripts/lazyload.js"></script>
+  <script src="scripts/allscripts.js"></script>
+  <script src="scripts/burger.js"></script>
+  <script src="scripts/currentyear.js"></script>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/javascript.js"></script>
+  <script src="scripts/lastmodified.js"></script>
+  <script src="scripts/banner.js"></script>
+  <script src="scripts/wind.js"></script>
+</body>
+
+</html>

@@ -12,5 +12,5 @@ li {align-items: center;}*/
 h2 { font-family: 'Cormorant Garamond', sans-serif; font-size: 25px;}
 h1 { font-family: 'Faustina', sans-serif ; font-size: 30px;}
 h3 { font-family: 'PT Serif', sans-serif; font-size: 20px;}
-p { font-family: 'Cormorant Garamond', sans-serif; font-size: 18px; }
+p, pre { font-family: 'Cormorant Garamond', sans-serif; font-size: 18px; }
 a {font-family: 'Faustina', sans-serif ; font-size: 18px; }

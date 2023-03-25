@@ -1,0 +1,36 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+main div.cards section {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+
+main div.cards h2 {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+main div.cards section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+main div.prophets {
+    text-align: center;
+}
+
+main>div.cards img:hover {
+    border: 2px solid blue;
+}
