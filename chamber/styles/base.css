@@ -376,6 +376,7 @@ div.discoverybody:hover {
 div.discoverybody {
 
     align-self: center;
+    max-width: 60%;
 
 }
 
